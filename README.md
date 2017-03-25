@@ -1,5 +1,4 @@
 # adapt-component-animateCCmate
-a component which embeds Adobe Animate CC content into an object
 
 **animate CC mate** is a *presentation component* for the [Adapt framework](https://github.com/adaptlearning/adapt_framework).
 
@@ -81,6 +80,8 @@ you can also move the skeleton directory to the course assets directory. if you 
 ## Limitations
 
 not known at this time
+
+
 
 ----------------------------
 **Version number:**  0.0.1<br>
