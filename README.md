@@ -73,7 +73,7 @@ function completeMe(){
 
 when using the default source path and included example after installing this plugin, be sure to check the plugin assets directory in the build of a course. you may have to move the contents of the skeleton directory back into the skeleton directory. use the skeleton's directory structure in the repo as a guide.
 
-you can also move the skeleton directory to the course assets directory. if you do, be sure to change the source path to "course/en/assets/skeleton/skeleton.html". (this is the preferred method for production.)
+you can also move the skeleton directory to the course assets directory. if you do, be sure to change the source path to "course/en/assets/skeleton/skeleton.html". (this is the preferred method for production)
 
 
 
