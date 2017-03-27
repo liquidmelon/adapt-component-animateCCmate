@@ -1,0 +1,15 @@
+{
+  "_id": "c-05",
+  "_layout": "right",
+  "_type": "component",
+  "_parentId": "b-05",
+  "body": "",
+  "displayTitle": "animate CC mate",
+  "title": "animate CC mate",
+  "_isAvailable": true,
+  "_isOptional": false,
+  "_classes": "",
+  "_component": "animateCCmate",
+  "instruction": "",
+  "_source": "path/to/the/file.html"
+}

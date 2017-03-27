@@ -1,0 +1,19 @@
+{
+  "name": "adapt-component-animateCCmate",
+  "repository": "git://github.com/liquidmelon/adapt-component-animateCCmate.git",
+  "version": "0.0.1.1",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/liquidmelon/adapt-component-animateCCmate",
+  "issues": "https://github.com/liquidmelon/adapt-component-animateCCmate",
+  "displayName" : "animate CC mate",
+  "component" : "animateCCmate",
+  "description": "a component which embeds Adobe Animate CC content into an object",
+  "main": "/js/adapt-component-animateCCmate.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component",
+    "Animate CC"
+  ],
+  "license": "GPLv3",
+  "targetAttribute": "_animateCCmate"
+}
