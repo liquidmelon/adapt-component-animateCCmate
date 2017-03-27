@@ -1,16 +1,14 @@
 # adapt-component-animateCCmate
 
-**animate CC mate** is a *presentation component* for the [Adapt framework](https://github.com/adaptlearning/adapt_framework).
+**animate CC mate** is a *presentation component* for the [Adapt framework](https://github.com/adaptlearning/adapt_framework) that allows you to embed responsive HTML5 content created with Adobe Animate CC into your course. the content must be completed in order to complete the component.
 
-**animate CC mate** is based on the [Game Frame](https://github.com/anthkris/adapt-game-frame) plugin and is built to allow you to embed responsive HTML5 content created with Adobe Animate CC into your course. the content must be completed in order to complete the component.
+**animate CC mate** is based on the [Game Frame](https://github.com/anthkris/adapt-game-frame) plugin, but uses a custom event to initiate the communication. iframes were strictly avoided in consideration of ios.
 
 
 
-## Usage
+## Setting up an animate CC file
 
-this component is more for reference than for production. it is suggested to make a fork to support your own scenario. knowledge of animate cc will be helpful.
-
-here is the code used to handle the communication between adapt and the animate cc content.* the animate cc content initiates the communication by sending a custom event to window.parent which is adapt's course window. the window listener in component's code is then able to set a reference to the animate cc content. the component passes a reference to itself when calling a function in the animate cc content. once they have a reference to each other, passing data back and forth is easy.
+here is the code* used to handle the communication between adapt and the animate cc object. the animate cc object initiates the communication by sending a custom event to window.parent which is adapt's course window. the window listener in component's code is then able to set a reference to the animate cc object. the component passes a reference to itself when calling a function in the animate cc object. once they have a reference to each other, passing data back and forth is easy.
 
 *code is from an Animate CC .fla file, which was published as HTML5 content. the .fla requires a dynamic text field (myTxt) and a button (myButt) on it's stage. the published example is included in the skeleton directory.
 
@@ -75,6 +73,14 @@ when using the default source path and included example after installing this pl
 
 you can also move the skeleton directory to the course assets directory. if you do, be sure to change the source path to "course/en/assets/skeleton/skeleton.html". (this is the preferred method for production)
 
+also note that this plugin is more for reference than for production. it is suggested to make a fork to support your own scenario. knowledge of animate cc will be helpful.
+
+
+
+## Reference Links
+
+[Creating and triggering events](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events)
+
 
 
 ## Limitations
@@ -84,6 +90,5 @@ not known at this time
 
 
 ----------------------------
-**Version number:**  0.0.1<br>
-**Framework versions:** ^2.0
-
+**Version number:** 0.0.1.1<br>
+**Framework versions:** ^2.0.0
